@@ -1,3 +1,36 @@
-# Backend_Super_APP_Banco_Inter
-Essa aplicação foi feita em parceria com o Banco Inter e a Digital Inovation One, consiste na criação de todo backend em TypeScript com o uso da ferramenta Docker.
-Essa aplicação consiste em criar uma página do Banco Inter com tela de Login e Cadastro de usuário bem como autenticação por Token, e transações via PIX.
+- Requisitos e ambiente 
+
+- Visual Studio Code
+  Extensões:
+- Insomnia ou Postman
+
+
+---
+Dependencias nescessárias
+
+Express
+typescript -D
+ts-node -D 
+@types/express -D
+@types/node -D
+nodemon -D
+
+
+Criando setup Ininical - Referencias.
+https://dev.to/melquisedecfelipe/configurando-eslint-no-node-com-express-e-typescript-58p9
+
+
+
+- Recursos nescessários na api
+
+
+- Usuário
+ [ ] Cadastrar novo usuário
+ [ ] Efeturar login e retornar token de acesso
+
+- PIX
+ [ ] Efetuar solicitação de PIX
+ [ ] Receber PIX
+ 
+ Regras: 
+  - quando receber um pix, salvar na tabela de transação
